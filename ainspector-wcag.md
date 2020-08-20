@@ -6,6 +6,10 @@ AInspector WCAG is a web accessibility evaluation tool for Firefox (in Mozilla p
 
 One of the distinguishing features of AInspector WCAG is that it not only includes evaluation results for accessibility requirements that can be programmatically analyzed, but also results that call out elements on the page that need to be manually checked to determine compliance.
 
+### Installation
+
 You can install the latest version of AInspector WCAG directly into Firefox by visiting the [Mozilla Add-ons page](https://addons.mozilla.org/en-US/firefox/addon/ainspector-wcag/).
+
+### Documentation
 
 Full documentation for AInspector WCAG is available at [docs.ainspector.org](http://docs.ainspector.org).
