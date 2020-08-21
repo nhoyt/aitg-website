@@ -1,8 +1,8 @@
 DRES, a division of the College of Applied Health Sciences (AHS) at the University of Illinois at Urbana-Champaign, has been involved with designing and developing software tools for accessibility since the early 2000's. The main tools it has developed are:
 
-* [FAE (Functional Accessibility Evaluator)](/tools/fae) for evaluating websites
+* [Functional Accessibility Evaluator (FAE)](/tools/fae) for evaluating websites
 * [AInspector WCAG](/tools/ainspector-wcag), a Firefox browser extension
-* [A11yFirst for CKEditor](/tools/a11yfirst)
+* [A11yFirst for CKEditor](/tools/a11yfirst), used for CMS content authoring
 * [Accessibility Bookmarklets](/tools/accessibility-bookmarklets), developed in conjunction with Pixo
 
 The first two, FAE and AInspector WCAG share the same rulesets and evaluation engine (aka evaluation library), but differ in other important ways.
@@ -22,7 +22,7 @@ Additional information about the current accessibility tools developed by DRES c
 
 To install and/or use the individual tools, please visit:
 
-* [FAE (Functional Accessibility Evaluator)](https://fae.disability.illinois.edu/)
-* [AInspector WCAG](https://addons.mozilla.org/en-US/firefox/addon/ainspector-wcag/) (Mozilla Add-ons)
-* [A11yFirst for CKEditor](https://ckeditor.com/cke4/addons/search/plugins/a11yfirst) (CKEditor Add-ons)
+* [Run FAE](https://fae.disability.illinois.edu/)
+* [AInspector WCAG | Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/ainspector-wcag/)
+* [A11yFirst | CKEditor Add-ons](https://ckeditor.com/cke4/addons/search/plugins/a11yfirst)
 * [Accessibility Bookmarklets](https://accessibility-bookmarklets.org/)
