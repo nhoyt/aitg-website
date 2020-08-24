@@ -1,9 +1,11 @@
 DRES, a division of the College of Applied Health Sciences (AHS) at the University of Illinois at Urbana-Champaign, has been involved with designing and developing software tools for accessibility since the early 2000's. The main tools it has developed are:
 
-* [Functional Accessibility Evaluator (FAE)](/tools/fae) for evaluating websites
-* [AInspector WCAG](/tools/ainspector-wcag), a Firefox browser extension
-* [A11yFirst for CKEditor](/tools/a11yfirst), used for CMS content authoring
-* [Accessibility Bookmarklets](/tools/accessibility-bookmarklets), developed in conjunction with Pixo
+* [Functional Accessibility Evaluator (FAE)](/tools/fae), a web application for evaluating websites
+* [AInspector WCAG](/tools/ainspector-wcag), a Firefox browser extension for evaluating a web page
+* [Accessibility Bookmarklets](/tools/accessibility-bookmarklets), visualization tools developed in conjunction with Pixo
+* [A11yFirst for CKEditor](/tools/a11yfirst), used for CMS authoring of accessible content
+
+## Evaluation Tools
 
 The first two, FAE and AInspector WCAG share the same rulesets and evaluation engine (aka evaluation library), but differ in other important ways.
 
@@ -11,9 +13,17 @@ FAE is a web application that evaluates entire websites and generates multiple l
 
 AInspector WCAG is a Firefox browser add-on that evaluates a single page and provides results that can be navigated, again based on rule categories, in the browser sidebar. The results, however, are not readily archivable.
 
+## Visualization Tools
+
+The Accessibility Bookmarklets is a suite of tools that  provide web developers and designers with ways of visualizing accessibility features and information that is otherwise hidden on the page.
+
+They do not evaluate the page based on accessibility requirements or rules, but are useful for gaining an overview of particular categories of accessibility requirements, as well as performing certain types of manual checks.
+
+## Embedded HTML Editor for Producing Accessible Content
+
 The A11yFirst for CKEditor project seeks to transform the web content authoring model from reactive to proactive, by creating an authoring environment that supports accessibility by default.
 
-The Accessibility Bookmarklets provide web developers and designers with ways of visualizing accessibility features and information that is otherwise hidden on the page. They do not evaluate the page based on accessibility requirements or rules, but are very useful for performing certain types of manual checks.
+## Resources
 
 Additional information about the current accessibility tools developed by DRES can be found at:
 
