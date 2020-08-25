@@ -9,18 +9,11 @@ Each evaluation rule that FAE uses is based on one or more of the requirements a
 * [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/) Techniques
 * [HTML Standard](https://html.spec.whatwg.org/multipage/)
 
-## OpenAjax Evaluation Library
+## Evaluation Rules for Web Accessibility
 
-FAE and the companion tool, [AInspector WCAG for Firefox](/tools/ainspector), both use the OpenAjax Evaluation Library rules and rulesets.
+FAE and the companion tool, [AInspector WCAG for Firefox](/tools/ainspector), were designed such that the evaluation results they produce are structurally identical. A shared conceptual model ensures that the terminology used in both tools are identical as well.
 
-The evaluation library rules and rulesets were developed over a six year period through the work of the OpenAjax Accessibility Task Force and feedback from users of the initial versions of FAE and AInspector WCAG. Every rule included in the library references at least one WCAG 2.0 Level A or AA Success Criterion requirement.
-
-The OpenAjax Evaluation Library includes two rulesets, selectable by the user:
-
-* HTML5 and ARIA Techniques
-* HTML4 Legacy Techniques
-
-The recommended ruleset is ‘HTML5 and ARIA Techniques’, as it comprises the most up-to-date requirements.
+Underlying the similar user interface designs, in particular those involved with navigating the evaluation results, is a shared set of rules and rulesets, which are stored in the [Evaluation Library](/tools/evaluation-library).
 
 ## Website Evaluation
 
