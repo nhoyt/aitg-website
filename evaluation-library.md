@@ -20,3 +20,20 @@ The Evaluation Library includes two rulesets, selectable by the user:
 * HTML4 Legacy Techniques
 
 The recommended ruleset is ‘HTML5 and ARIA Techniques’, as it comprises the most up-to-date requirements.
+
+## Rule Categories
+
+The rulesets in the Evaluation Library are organized by the following rule categories or groupings:
+
+* Landmarks
+* Headings
+* Styles/Content
+* Images
+* Links
+* Tables
+* Forms
+* Widgets/Scripts
+* Audio/Video
+* Keyboard
+* Timing
+* Site Navigation

@@ -9,15 +9,15 @@ Each evaluation rule that FAE uses is based on one or more of the requirements a
 * [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices/) Techniques
 * [HTML Standard](https://html.spec.whatwg.org/multipage/)
 
-## Evaluation Rules for Web Accessibility
+## Evaluation Rules
 
-FAE and the companion tool, [AInspector WCAG for Firefox](/tools/ainspector), were designed such that the evaluation results they produce are structurally identical. A shared conceptual model ensures that the terminology used in both tools are identical as well.
+FAE and the companion tool, [AInspector WCAG for Firefox](/tools/ainspector), were designed to produce evaluation results that are structurally identical. They do so by utilizing the [Evaluation Library](/tools/evaluation-library), which comprises a set of over 120 evaluation rules.
 
-Underlying the similar user interface designs, in particular those involved with navigating the evaluation results, is a shared set of rules and rulesets, which are stored in the [Evaluation Library](/tools/evaluation-library).
+These evaluation rules, which were developed in conjunction with partners from state government, industry and academia, are organized into categories with which most web developers are familiar, including headings, lists, forms, tables, etc.
 
 ## Website Evaluation
 
-While AInspector WCAG is used for evaluating a single web page, FAE is capable of evaluating entire websites through a technique known as web spidering. For more information on how web spidering is utilized by FAE, see the [example page](/tools/spidering).
+While AInspector WCAG is used for evaluating a single web page, FAE is capable of evaluating entire websites through a technique known as web spidering. For more information on how FAE utilizes web spidering, see the [example page](/tools/spidering).
 
 ## Tools Ecosystem
 
