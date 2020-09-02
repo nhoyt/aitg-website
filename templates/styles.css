@@ -56,9 +56,9 @@ body main {
   white-space: nowrap;
   font-size: 16px;
 
-  margin: 0;
-  margin-top: 12px;
-  margin-bottom: 10px;
+  margin-top: 24px;
+  margin-right: 12px;
+  margin-bottom: 20px;
   margin-left: 6px;
 }
 
@@ -67,17 +67,17 @@ body main {
   padding: 0;
 }
 
-li.menu-item {
+.banner-menu li {
+  display: inline;
+}
+
+a.menu-button {
   /* border: 1px solid white; */
-  display: inline-block;
+  color: #fff;
+  text-decoration: none;
   padding: 12px 18px;
 }
 
-.menu-item:hover {
+a.menu-button:hover {
   background: #999;
-}
-
-.menu-item a {
-  color: #fff;
-  text-decoration: none;
 }
