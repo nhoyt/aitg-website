@@ -7,7 +7,7 @@ body {
 main {
   color: #00132c;
   padding: 1em 1.5em;
-  padding-right: 24em;
+  width: 64%;
 }
 
 main h1 {
