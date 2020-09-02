@@ -23,11 +23,12 @@ main h1 {
 }
 
 .banner-row-1 {
-  background: #fff;
+  background-color: #fff;
   color: #00132c;
 }
 
 .banner-logo {
+  display: inline-block;
   padding: 20px 24px 16px;
 }
 
@@ -38,8 +39,47 @@ main h1 {
 .banner-logo a {
 }
 
+.banner-search {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr;
+  float: right;
+  margin: 20px 24px 0 0;
+  padding: 0;
+}
+
+.banner-search input {
+  grid-column: 1;
+  background-color: #d3d6e0;
+  border: 2px solid #d3d6e0;
+  box-sizing: border-box;
+  line-height: 24px;
+  height: 36px;
+  margin-top: 0;
+  margin-right: 0;
+
+  color: #555555;
+  font-family: inherit;
+  font-size: 16px;
+  padding-left: 0.5em;
+}
+
+.banner-search input:focus {
+  background-color: #fff;
+}
+
+.banner-search button {
+  grid-column: 2;
+  background: #17385e url("search-icon.png") 9px 9px no-repeat;
+  background-size: 18px 18px;
+  border: none;
+  color: #ffffff;
+  width: 36px;
+  height: 36px;
+}
+
 .banner-row-2 {
-  background: #17385E;
+  background: #17385e;
   color: #fff;
 }
 
@@ -95,7 +135,7 @@ a.menu-button {
 
 a.menu-button:focus,
 a.menu-button:hover {
-  background: #1754a3;
+  background-color: #1754a3;
   border: 1px solid #fff;
   text-decoration: underline;
 }
