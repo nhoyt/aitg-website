@@ -33,9 +33,6 @@ body main {
 .banner-row-2 {
   background: #17385E;
   color: #fff;
-  /*
-  padding-bottom: 16px;
-  */
 }
 
 .banner-aitg {
@@ -48,6 +45,15 @@ body main {
   margin-right: 24px;
   margin-left: 24px;
   padding: 0;
+}
+
+.banner-aitg a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner-aitg a:hover {
+  text-decoration: underline;
 }
 
 .banner-menu {
@@ -72,12 +78,23 @@ body main {
 }
 
 a.menu-button {
-  /* border: 1px solid white; */
+  border: 1px solid #17385E;
+  border-radius: 6px;
   color: #fff;
   text-decoration: none;
   padding: 12px 18px;
 }
 
 a.menu-button:hover {
-  background: #999;
+  background: #1754a3;
+  border: 1px solid #fff;
+  text-decoration: underline;
+}
+
+.chevron-down::after {
+  /* border: 1px solid red; */
+  content: url("chevron-down.svg");
+  position: relative;
+  top: -1px;
+  left: 5px;
 }
