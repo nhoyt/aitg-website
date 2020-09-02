@@ -16,11 +16,11 @@ body main {
 
 .banner-row-1 {
   background: #fff;
-  padding: 8px 12px 4px;
+  /* padding: 6px 12px 2px; */
 }
 
 .banner-logo {
-  padding: 12px;
+  padding: 20px 24px 16px;
 }
 
 .banner-logo img {
@@ -40,6 +40,7 @@ body main {
 }
 
 .banner-row-2 p {
+  /* border: 1px solid white; */
   grid-column: 1;
   font-size: 24px;
   margin-top: 20px;
@@ -47,15 +48,26 @@ body main {
   padding: 0;
 }
 
-.banner-menu-bar {
-  border: 1px solid white;
+.banner-menu {
+  /* border: 1px solid white; */
   grid-column: 2 / 4;
-  display: grid;
-  grid-template-columns: 5fr;
-  grid-template-rows: 1fr;
+  margin: 0;
+  margin-top: 8px;
+  padding-right: 24px;
   font-size: 16px;
 }
 
-.menu-bar-item {
-  display: flex;
+.menu-item {
+  /* border: 1px solid white; */
+  display: inline;
+  padding: 12px 18px;
+}
+
+.menu-item:hover {
+  background: #999;
+}
+
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
 }
