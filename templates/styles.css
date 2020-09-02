@@ -16,7 +16,6 @@ body main {
 
 .banner-row-1 {
   background: #fff;
-  /* padding: 6px 12px 2px; */
 }
 
 .banner-logo {
@@ -52,6 +51,7 @@ body main {
   text-decoration: none;
 }
 
+.banner-aitg a:focus,
 .banner-aitg a:hover {
   text-decoration: underline;
 }
@@ -79,12 +79,12 @@ body main {
 
 a.menu-button {
   border: 1px solid #17385E;
-  border-radius: 6px;
   color: #fff;
   text-decoration: none;
   padding: 12px 18px;
 }
 
+a.menu-button:focus,
 a.menu-button:hover {
   background: #1754a3;
   border: 1px solid #fff;
