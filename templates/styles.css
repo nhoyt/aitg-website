@@ -192,3 +192,43 @@ a.menu-button:hover {
   left: 6px;
   margin-right: 4px;
 }
+
+/* FOOTER: THREE-COLUMN FLEX LAYOUT; */
+
+footer {
+  background: #17385e;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  padding-top: 4px;
+  padding-bottom: 12px;
+}
+
+footer div {
+  display: flex;
+  flex: 1 1 auto;
+  padding: 12px 24px;
+}
+
+footer div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer div ul li {
+  padding-top: 8px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+footer a:focus,
+footer a:hover {
+  text-decoration: underline;
+}
